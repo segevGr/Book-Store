@@ -1,0 +1,83 @@
+.pic{
+    width: 320px;
+    height: 450px;
+    position: absolute;
+    left: 9%;
+}
+
+.aboutMe{
+    position: absolute;
+    left: 38%;
+    text-align: center;
+}
+
+.h2About{
+    font-size: medium;
+}
+
+ul{
+    font-size: larger;
+}
+
+.lists h2{
+    position: absolute;
+    left: -12%;
+}
+
+.lists ul{
+    position: relative;
+    left: -15%;
+    text-align: left;
+}
+
+.btn{
+    background-color: #5bc0de;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+}
+
+.btn:hover {
+    background-color: rgb(32, 161, 170);
+    transition: 0.4s;
+}
+
+
+.row .author-social {
+    text-align: center;
+    position: absolute;
+    left: 16.5%;
+    top: 130%;
+  }
+  
+  .row .author-social .fa-stack {
+    display: inline-block;
+  }
+  
+  .row .author-social .fa-stack.facebook {
+    color: #4c70ba;
+  }
+  
+  .row .author-social .fa-stack.facebook:hover, .row .author-social .fa-stack.facebook:focus {
+    color: #3b5998;
+  }
+  
+  .row .author-social .fa-stack.instagram {
+    color: #8a3ab9;
+  }
+  
+  .row .author-social .fa-stack.instagram:hover, .row .author-social .fa-stack.instagram:focus {
+    color: #6c3f86;
+  }
+  
+  .row .author-social .fa-stack.linkedin {
+    color: #009ee8;
+  }
+  
+  .row .author-social .fa-stack.linkedin:hover, .row .author-social .fa-stack.linkedin:focus {
+    color: #007bb5;
+  }
+  

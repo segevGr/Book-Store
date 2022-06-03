@@ -1,0 +1,91 @@
+.social-part .fa{
+  padding-right:20px;
+}
+ul li a{
+  margin-right: 20px;
+}
+
+/* Start Landing Section */
+.landing {
+  background-image: url('Pictures/Landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(70vh - 100px);
+  position: relative;
+}
+.landing .intro-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  max-width: 100%;
+}
+.landing .intro-text h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 50px;
+  color: var(--main-color);
+}
+.landing .intro-text p {
+  font-size: 19px;
+  line-height: 1.8;
+}
+
+/* End Landing Section */
+
+
+/* Basic Styling */
+  html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+ 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
+ul{
+  font-size: larger;
+}
+
+.nav-item{
+  font-size: medium;
+}
+
+.dropdown-menu{
+  font-size: medium;
+}
+
+.active{
+  font-weight: bold;
+}
+
+.badge {
+  height: 15px;
+  width: 17px;
+  border-radius: 100%;
+}
+
+
+#lblCartCount {
+    font-size: 10px;
+    background: #ff0000;
+    color: rgb(255, 255, 255);
+    vertical-align: top;
+    margin-left: -2px; 
+}
+
+.social-part{
+  font-size: medium;
+}
+
+.helloUser{
+  padding-right:15px;
+}

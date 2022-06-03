@@ -1,0 +1,54 @@
+.bookImage{
+    width: 350px;
+    height: 500px;  
+}
+
+.rtl{
+    font-size: medium;
+}
+
+.btn{
+    background-color: #35e43b;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    transition: 0.3s;
+}
+
+
+.removeBtn{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute; left: 700;
+    position: absolute; top: 5;
+    background-color: red;
+}
+
+.removeBtn:hover {
+    background-color: rgb(218, 50, 50);
+    transition: 0.3s;
+}
+
+.editBtn{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute; left: 700;
+    position: absolute; top: 55;
+    background-color: rgb(18, 239, 22);
+}
+
+.editBtn:hover {
+    background-color: rgb(48, 191, 50);
+    transition: 0.3s;
+}
+

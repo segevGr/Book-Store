@@ -1,0 +1,117 @@
+
+.checkout-summary {
+    max-width: 600px;
+    background-color: #fefefe;
+    margin:0 auto;
+  }
+  
+  .checkout-summary-title {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #e6e6e6;
+  }
+  
+  .checkout-summary-item {
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .checkout-summary-item .item-name,
+  .checkout-summary-item .item-price {
+    padding: 0 1rem;
+  }
+  
+  .checkout-summary-item .item-name p,
+  .checkout-summary-item .item-price p {
+    margin: 0;
+    padding: 0;
+  }  
+  
+  img{
+    height: 170px;
+    width: 145px;
+  }
+
+  .item-name{
+    text-align: center;  
+  }
+
+  .price{
+    text-align: center;
+    position:relative ;
+    top: 0;
+    left: 0;
+  }
+
+  .remove{
+    font-size: medium;
+  }
+
+  .total{
+    text-align: center;
+    border: 1px solid #e6e6e6;
+  }
+
+  .btn{
+    color: #fff;
+    width: 120px;
+    height: 50px;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    text-align: center;
+    border-radius: 4px;
+    font-size: medium;
+    margin: 0 auto;  
+  }
+
+  .coupon{
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    font-size: large;
+  }
+  .couponBtn{
+    display:inline-block;
+    color: #fff;
+    width: 80px;
+    height: 42px;
+    position: relative;
+    top: -20;
+    text-align: center;
+    border-radius: 4px;
+    font-size: small;
+    margin: 0 auto;  
+  }
+
+  #addCoupon{
+    background-color: #10df3d;
+    border-color: #1a9138;
+  }
+
+  #addCoupon:hover{
+    background-color: #22a53f;
+    transition: 0.3s;
+  }
+
+  #removeCoupon{
+    background-color: #e62c2c;
+    border-color: #852626;
+  }
+
+  #removeCoupon:hover{
+    background-color: #aa3636;
+    transition: 0.3s;
+  }
